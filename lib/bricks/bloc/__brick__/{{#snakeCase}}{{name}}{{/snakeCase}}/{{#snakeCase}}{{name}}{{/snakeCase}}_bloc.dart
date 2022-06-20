@@ -1,3 +1,5 @@
+import '../../../domain/usecases/{{#snakeCase}}{{name}}{{/snakeCase}}_use_case.dart';
+import '../../../../core/domain/entities/failures.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 
