@@ -1,17 +1,17 @@
-import '../../../domain/usecases/{{#snakeCase}}{{name}}{{/snakeCase}}_use_case.dart';
-import '../../../../core/domain/entities/failures.dart';
+import '../../../domain/usecases/sign_in_use_case.dart';
+import '/../../../../core/domain/entities/failures.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
 
-part '{{#snakeCase}}{{name}}{{/snakeCase}}_event.dart';
-part '{{#snakeCase}}{{name}}{{/snakeCase}}_state.dart';
+part '{{#camelCase}}{{name}}{{/snakeCase}}_event.dart';
+part '{{#camelCase}}{{name}}{{/snakeCase}}_state.dart';
 
 @injectable
 class {{#pascalCase}}{{name}}{{/pascalCase}}Bloc extends Bloc<{{#pascalCase}}{{name}}{{/pascalCase}}Event, {{#pascalCase}}{{name}}{{/pascalCase}}State> {
   final {{#pascalCase}}{{name}}{{/pascalCase}}UseCase {{#camelCase}}{{name}}{{/camelCase}}UseCase;
 
   {{#pascalCase}}{{name}}{{/pascalCase}}Bloc({
-    required this.{{#pascalCase}}{{name}}{{/pascalCase}}UseCase,
+    required this.{{#camelCase}}{{name}}{{/camelCase}}UseCase,
   }) : super(Initial()) {
     on<{{#pascalCase}}{{name}}{{/pascalCase}}OnSubmit>(
           (event, emit) async {

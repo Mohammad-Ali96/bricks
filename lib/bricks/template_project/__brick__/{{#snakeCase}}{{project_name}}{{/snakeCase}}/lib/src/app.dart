@@ -43,6 +43,7 @@ class _AppState extends State<App> {
                   SystemUiOverlayStyle.light);
               return MaterialApp.router(
                 debugShowCheckedModeBanner: false,
+                title: '{{#titleCase}}{{project_name}}{{/titleCase}}',
                 localizationsDelegates: context.localizationDelegates,
                 supportedLocales: context.supportedLocales,
                 locale: context.locale,

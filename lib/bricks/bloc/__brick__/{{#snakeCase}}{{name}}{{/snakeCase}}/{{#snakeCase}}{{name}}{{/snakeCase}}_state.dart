@@ -1,4 +1,4 @@
-part of '{{#snakeCase}}{{name}}{{/snakeCase}}_bloc.dart';
+part of '{{#camelCase}}{{name}}{{/snakeCase}}_bloc.dart';
 
 
 abstract

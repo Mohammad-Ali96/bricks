@@ -1,4 +1,4 @@
-name: {{#snakeCase}}{{project_name}}{{/snakeCase}}
+name: {{#camelCase}}{{project_name}}{{/camelCase}}
 description: A new Flutter project.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -22,7 +22,6 @@ dependencies:
   get_it: ^7.2.0
   flutter_gen: ^4.3.0
   flutter_screenutil: ^5.5.3+2
-  flutter_share: ^2.0.0
   flutter_spinkit: ^5.1.0
   flutter_svg: ^1.1.0
   image_picker: ^0.8.5+3
@@ -39,7 +38,6 @@ dependencies:
   shared_preferences: ^2.0.15
   shimmer: ^2.0.0
   visibility_detector: ^0.3.3
-  share_plus: ^4.0.8
   logger: ^1.1.0
   dio: ^4.0.6
 

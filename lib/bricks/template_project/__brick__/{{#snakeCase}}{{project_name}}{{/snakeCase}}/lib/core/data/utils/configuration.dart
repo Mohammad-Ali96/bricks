@@ -1,4 +1,4 @@
-import 'package:ama_ecommerce/core/domain/utils/app_environment.dart';
+import '/../core/domain/utils/app_environment.dart';
 import 'package:injectable/injectable.dart';
 
 abstract class Configuration {

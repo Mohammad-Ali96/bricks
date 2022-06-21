@@ -5,11 +5,6 @@ version: 0.1.0+1
 environment:
   mason: ">=0.1.0-dev.26 <0.1.0"
 vars:
-  name:
-    type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
   project_name:
     type: string
     description: Your project name

@@ -5,7 +5,7 @@ export 'app_router.gr.dart';
 
 @MaterialAutoRouter(
   routes: [
-    AutoRoute(page: HomePage),
+    AutoRoute(page: HomePage, initial: true),
   ],
 )
 class $AppRouter {}
