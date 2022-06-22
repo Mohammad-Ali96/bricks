@@ -9,3 +9,6 @@ vars:
   name:
     type: string
     prompt: What is your bloc name?
+  usecase_name:
+    type: string
+    prompt: What is your use case name?
