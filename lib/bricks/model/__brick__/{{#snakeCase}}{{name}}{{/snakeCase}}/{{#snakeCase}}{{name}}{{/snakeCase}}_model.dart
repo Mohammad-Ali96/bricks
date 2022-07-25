@@ -11,7 +11,7 @@ required this.id,
 });
 
 factory {{#pascalCase}}{{name}}{{/pascalCase}}Model.fromJson(Map<String, dynamic> json) =>
-_${{#pascalCase}}{{fname}}{{/pascalCase}}ModelFromJson(json);
+_${{#pascalCase}}{{name}}{{/pascalCase}}ModelFromJson(json);
 
 Map<String, dynamic> toJson() => _${{#pascalCase}}{{name}}{{/pascalCase}}ModelToJson(this);
 
